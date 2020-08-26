@@ -26,7 +26,6 @@ def printer(name_array)
   
   message_array.each{|message|  puts "#{message}"}
   
-  room_assignment_array.each do |message|
-     puts "#{message}"
-  end
+  room_assignment_array.each{|message|  puts "#{message}"}
+   
 end
